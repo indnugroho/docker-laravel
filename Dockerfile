@@ -35,7 +35,8 @@ RUN apt-get install -y \
     php7.4-simplexml \
     php7.4-xmlreader \
     php7.4-zip \
-    php7.4-intl
+    php7.4-intl \
+	php7.4-redis
 
 #------------- FPM & Nginx configuration ----------------------------------------------------
 
